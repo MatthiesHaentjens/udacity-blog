@@ -1,0 +1,46 @@
+
+.quote {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	color: green;
+	border: 2px solid green;
+	padding: 15px;
+	height: 150px;
+}
+
+.main-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 400px;
+	height: 100vh;
+}
+
+.about {
+	flex: 1 200px;
+	color: red;
+	border: 2px solid red;
+	padding: 15px;
+}
+
+.blogs {
+	flex: 2 400px;
+	color: purple;
+	border: 2px solid purple;
+	padding: 15px;
+}
+
+.footer {
+	color: blue;
+	border: 2px solid blue;
+	padding: 15px;
+}
+
+button {
+	height: 40px;
+	background: #fff;
+	padding: 0 20px;
+	border: 1px solid green;
+}
