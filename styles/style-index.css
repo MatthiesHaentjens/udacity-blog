@@ -4,8 +4,8 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	color: green;
-	border: 2px solid green;
+	color: purple;
+	border: 2px solid purple;
 	padding: 15px;
 	height: 150px;
 }
@@ -20,8 +20,8 @@
 
 .about {
 	flex: 1 200px;
-	color: red;
-	border: 2px solid red;
+	color: black;
+	border: 2px solid black;
 	padding: 15px;
 }
 
@@ -33,14 +33,21 @@
 }
 
 .footer {
-	color: blue;
-	border: 2px solid blue;
+	background-color: black;
+	color: white;
 	padding: 15px;
 }
 
-button {
-	height: 40px;
-	background: #fff;
-	padding: 0 20px;
-	border: 1px solid green;
+.button {
+	background-color: yellow;
+	color: black;
+	padding: 1em 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+img {
+	border-radius: 50%;
+	height: 10%;
+	width: 10%;
 }
