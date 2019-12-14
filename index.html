@@ -4,11 +4,28 @@
 
 	<head>
 		<title>Matthies</title>
-		<link rel="stylesheet" href="styles/style-index.css">
+		<link rel="stylesheet" href="../styles/style-index.css">
 	</head>
 	
 	<body>
 
+		<section class="nav-bar">
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><button onclick="document.getElementById('button1').style.display='block'">Subscribe</button></li>
+			</ul>
+			<div id="button1" class="modal">
+				<span onclick="document.getElementById('button1').style.display='block'" class="close" title="Close Modal"></span>
+				<form class="modal-content" action="/subcribe.html">
+					<div class="container">
+						<h1>Subscribe to my blog</h1>
+						<input type="text" placeholder="Enter Email" name="email" required>
+						<div><button type="submit" class="subscribe">Subscribe</button></div>
+					</div>
+				</form>
+			</div>
+		</section>
+		
 		<section class="quote">
 			<div>
 				<p>Quote</p>
@@ -22,7 +39,7 @@
 					<h2>ABOUT ME</h2>
 					<p>The expert</p>
 				</div>
-				<img src="pictures/Matthies.jpg" als="Matthies on an Excavator" height="42" width="42">
+				<img src="/pictures/Matthies.jpg" als="Matthies on an Excavator" height="42" width="42">
 				<a href="about-me.html" class="button">Learn More</a>
 			</section>
 			

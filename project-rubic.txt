@@ -2,21 +2,21 @@ STRUCTURE
 
 CSS Separate From HTML
 
-1. Portfolio completely separates structure from design/style.
-2. There are no attributes present in the body of the document.
-3. There are no elements in the document.
+1. Portfolio completely separates structure from design/style. - CHECK
+2. There are no attributes present in the body of the document. - CHECK
+3. There are no elements in the document. - CHECK
 
 CSS Imports
 
-There should be at least 3 imported files in the main CSS file, but the student is welcome to break it down even further if that makes it easier for them.
+There should be at least 3 imported files in the main CSS file, but the student is welcome to break it down even further if that makes it easier for them. - CHECK
 
 Directories & Files
 
-Files are organized with a directory structure that separates files based on page and functionality.
+Files are organized with a directory structure that separates files based on page and functionality. - CHECK
 
 Links
 
-There is an intentional user flow on each page with appropriate links as needed.
+There is an intentional user flow on each page with appropriate links as needed. - CHECK
 
 DESIGN
 
@@ -49,9 +49,9 @@ Patterns
 
 The general pattern of the webpage should be as follows:
 
-	Blog Homepage
+	Blog Homepage - CHECK
 	Navbar
-	Footer
+	Footer - CHECK
 	Blog Post Card
 		Card
 		Image
