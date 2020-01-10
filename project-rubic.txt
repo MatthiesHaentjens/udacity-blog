@@ -21,7 +21,7 @@ There is an intentional user flow on each page with appropriate links as needed.
 DESIGN
 
 Custom Design
-	
+
 Custom images, layout, and styling.
 
 Foundations/Building Blocks
@@ -37,7 +37,7 @@ Foundations/Building Blocks
 2. Colors: At least 3 colors are used.
 
 Components
-	
+
 The following are used in the webpage:
 
 	Image(s)
@@ -50,7 +50,7 @@ Patterns
 The general pattern of the webpage should be as follows:
 
 	Blog Homepage - CHECK
-	Navbar
+	Navbar - CHECK
 	Footer - CHECK
 	Blog Post Card
 		Card
@@ -73,9 +73,8 @@ Pages
 
 The following pages should be present:
 
-	Blog Homepage
-	Blog Post
-
+	Blog Homepage - CHECK
+	Blog Post - CHECK
 
 LAYOUT
 
@@ -94,7 +93,6 @@ Multi-Device Web Design
 Pages are mobile-friendly and display correctly on all display sizes (mobile, tablet, desktop).
 
 QUALITY
-
 
 Valid HTML
 
