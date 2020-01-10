@@ -1,0 +1,12 @@
+
+
+.container-blog {
+	display: grid;
+ 	min-height: 100%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto 1fr 75px;
+	grid-template-areas:
+		"header header header header"
+		"blog blog blog blog"
+		"footer footer footer footer"
+}
