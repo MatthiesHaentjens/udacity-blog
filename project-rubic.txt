@@ -80,11 +80,11 @@ LAYOUT
 
 Flexbox Based Layout
 
-Uses Flexbox at least twice throughout the project to create a component or pattern
+Uses Flexbox at least twice throughout the project to create a component or pattern - CHECK
 
 Grid Based Layout
 
-Uses CSS Grid at least twice throughout the project to create the layout for pages
+Uses CSS Grid at least twice throughout the project to create the layout for pages - CHECK
 
 RESPONSIVENESS
 
