@@ -18,8 +18,8 @@ html, body {
 	grid-template-areas:
 		"header header header header"
 		"quote quote quote quote"
-		"sidebar blog1 blog2 blog3"
-		"sidebar blog4 blog5 blog6"
+		"sidebar blog blog blog"
+		"sidebar blog blog blog"
 		"footer footer footer footer"
 }
 
@@ -28,9 +28,8 @@ html, body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-around;
 	color: black;
-	padding: 15px;
+	padding: 0px;
 }
 
 .about {
@@ -40,10 +39,39 @@ html, body {
 }
 
 .blogs {
-	grid-column: 2 / span 3;
-	grid-row: 3 / span 2;
+	grid-area: blog;
 	color: black;
 	padding: 15px;
+}
+
+.blog-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/* outline: blue 1px solid; */
+}
+
+.blog-card {
+	background: white;
+ 	text-decoration: none;
+ 	color: #444;
+ 	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+	height: 300px;
+	width: 300px;
+	padding: 10px;
+	margin: 0px 0px 10px 0px;
+	/* outline: green 1px solid; */
+}
+
+.image-wrapper {
+	height: 150px;
+	overflow: hidden;
+}
+
+.social-sharing {
+	display: flex;
+	list-style-type: none;
+	justify-content: flex-end;
 }
 
 .footer {
@@ -55,11 +83,14 @@ html, body {
 }
 
 .button {
-	background-color: yellow;
-	color: black;
-	padding: 1em 1.5em;
+	display: inline-block;
+	background-color: green;
+	border-radius: 15px;
+	color: white;
+	padding: 10px 10px;
+	margin-top: 10px;
 	text-decoration: none;
-	text-transform: uppercase;
+	font-size: 20px;
 }
 
 .slider {
@@ -76,5 +107,10 @@ html, body {
 }
 
 .slide-selector{
+	padding: 15px;
+}
 
+.blog-card1 {
+	grid-area: blog1;
+	border: 1px;
 }
