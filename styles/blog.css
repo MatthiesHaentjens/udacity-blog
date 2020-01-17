@@ -2,11 +2,36 @@
 
 .container-blog {
 	display: grid;
- 	min-height: 100%;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: auto 1fr 75px;
+  min-height: 100%;
+	grid-template-columns: 200px 1fr 1fr 200px;
+	grid-template-rows: 50px 1fr 75px;
 	grid-template-areas:
 		"header header header header"
-		"blog blog blog blog"
+		"ad-left blog blog ad-right"
 		"footer footer footer footer"
+}
+
+.ad-panel-left {
+  grid-area: ad-left;
+  outline: blue 1px solid;
+}
+
+.full-blog-wrapper {
+  grid-area: blog;
+  display: flex;
+  flex-direction: column;
+  outline: blue 1px solid;
+}
+
+.blog-header {
+  outline: blue 1px solid;
+}
+
+.blog-text {
+  outline: blue 1px solid;
+}
+
+.ad-panel-right {
+  grid-area: ad-right;
+  outline: blue 1px solid;
 }

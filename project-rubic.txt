@@ -40,10 +40,10 @@ Components
 
 The following are used in the webpage:
 
-	Image(s)
-	Image caption
-	Buttons
-	Card
+	Image(s) - CHECK
+	Image caption - CHECK
+	Buttons - CHECK
+	Card - CHECK
 
 Patterns
 
@@ -52,10 +52,10 @@ The general pattern of the webpage should be as follows:
 	Blog Homepage - CHECK
 	Navbar - CHECK
 	Footer - CHECK
-	Blog Post Card
-		Card
-		Image
-		Buttons
+	Blog Post Card - CHECK
+		Card - CHECK
+		Image - CHECK
+		Buttons - CHECK
 	Blog Post
 		Header
 		Author Info
