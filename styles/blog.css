@@ -61,9 +61,7 @@
 }
 
 .picture-author {
-  display: inline-block;
   border-radius: 50%;
-  margin-right: 10px;
 }
 
 .blog-heading div {

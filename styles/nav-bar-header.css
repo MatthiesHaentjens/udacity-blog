@@ -1,12 +1,12 @@
 
-header {
+.nav-bar {
 	grid-area: header;
 	background-color: blue;
 	position: sticky;
 	top: 0;
 }
 
-header ul {
+.nav-bar-list {
 	list-style-type: none;
 	position: sticky;
 	top: 0;
@@ -14,7 +14,7 @@ header ul {
 	padding: 0;
 }
 
-header ul li:first-child {
+.nav-bar-list li:first-child {
 	grid-column: 1 / span 1;
 	grid-row: 1 / span 1;
 	color: white;
@@ -25,7 +25,7 @@ header ul li:first-child {
   text-decoration: none;
 }
 
-header ul li:last-child {
+.nav-bar-list li:last-child {
 	grid-column: 4 / span 1;
 	grid-row: 1 / span 1;
 	color: white;
@@ -36,7 +36,7 @@ header ul li:last-child {
   text-decoration: none;
 }
 
-header ul li a {
+.nav-bar-list li a {
 	color: white;
 	text-decoration: none;
 }

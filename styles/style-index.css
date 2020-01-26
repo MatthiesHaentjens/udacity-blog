@@ -1,8 +1,7 @@
 
-@import url("../styles/blog.css");
-@import url("../styles/nav-bar-header.css");
-@import url("../styles/footer.css");
-@import url("../styles/subscribe.css");
+@import url("blog.css");
+@import url("nav-bar-header.css");
+@import url("subscribe.css");
 @import url('https://fonts.googleapis.com/css?family=Bangers|Oswald|Pacifico&display=swap');
 
 html, body {
@@ -219,9 +218,4 @@ html, body {
 
 .slide-selector{
 	padding: 15px;
-}
-
-.blog-card1 {
-	grid-area: blog1;
-	border: 1px;
 }
