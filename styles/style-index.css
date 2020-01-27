@@ -132,6 +132,12 @@ html, body {
 	padding: 0px;
 }
 
+.qoute-heading {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+}
+
 .about {
 	grid-area: sidebar;
 	color: black;
@@ -212,6 +218,7 @@ html, body {
 }
 .slide {
   width: 100%;
+	font-size: 20px;
   flex-shrink: 0;
   height: 100%;
 }
